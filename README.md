@@ -1,4 +1,6 @@
 # Chandu-Protfolio
+https://chandrakumar02.github.io/Chandu-Protfolio/old-portfolio-deploy/
+
 # Chandra Kumar - Interactive Black Portfolio
 
 Interactive black-themed portfolio with animations and dynamic effects.

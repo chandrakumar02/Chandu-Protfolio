@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chandra Kumar - Interactive Portfolio</title>
+    <meta name="description" content="Chandra Kumar - Interactive black theme portfolio. Web Developer, Programmer specializing in HTML, CSS, JavaScript, Python, Excel, Power BI.">
+    <meta name="keywords" content="Chandra Kumar, Portfolio, Web Developer, Interactive, Black Theme, HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">WELCOME TO MY PORTFOLIO</h1>
+             <img src="image.jpg" alt="Chandra Kumar" width="300" height="600">
+           
+            <ul class="nav-links">
+                <h1> <li><a href="#about">About</a></li> </h1>
+               <h1> <li><a href="#skills">Skills</a></li> </h1>
+                <h1><li><a href="#projects">Projects</a></li> </h1>
+               <h1> <li><a href="#contact">Contact</a></li> </h1>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="typing-text">Hi, I'm <span>Chandra Kumar</span></h2>
+            <p class="fade-in">Web Developer | Programmer | Problem Solver</p>
+            <a href="#projects" class="btn pulse">View My Work</a>
+        </div>
+        <div class="particles"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a web developer and programmer with passion for creating web applications</p>
+        <p>I am a <strong>good programmer</strong> focused on crafting clean, beautiful, and user-friendly digital experiences.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item" data-skill="HTML">HTML</div>
+            <div class="skill-item" data-skill="CSS">CSS</div>
+            <div class="skill-item" data-skill="JAVASCRIPT">JAVASCRIPT</div>
+            <div class="skill-item" data-skill="PYTHON">PYTHON</div>
+            <div class="skill-item" data-skill="EXCEL">EXCEL</div>
+            <div class="skill-item" data-skill="POWER BI">POWER BI</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card interactive-card">
+                <h3>5G Coverage Prediction</h3>
+                <p>"Comparative analysis of ML algorithm for 5G coverage prediction"</p>
+                <div class="card-overlay">
+                    <span>Click to Learn More</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Feel Free to reach out to me on the following platforms:</p>
+        
+        <form action="#" method="POST">   
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <br> 
+
+            <div class="form-group">
+                <b>Choose your Gender</b>
+                <div class="radio-group">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="bio">Bio (up to 200 characters):</label>
+                <textarea id="bio" maxlength="200"></textarea>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Chandra Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
